@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miesbacher Barbershop | Haarschnitt, Bart &amp; Rasur in Miesbach</title>
+  <meta name="description" content="Miesbacher Barbershop: Haarschnitt, Bartpflege und klassische Rasur mitten in Miesbach. 5,0 Sterne auf Google. Frühlingstraße 28, 83714 Miesbach." />
+  <meta name="robots" content="noindex, nofollow" />
+  <!-- PROBEWEBSITE: noindex bleibt drin, bis der Shop den Auftritt freigibt. -->
+
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin />
+  <!-- TODO Produktion: Fonts selbst hosten statt Fontshare-CDN -->
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=general-sans@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="wordmark" href="#top" aria-label="Miesbacher Barbershop, zum Seitenanfang">
+        <span class="wordmark__pole" aria-hidden="true"></span>
+        <span class="wordmark__text">Miesbacher<br />Barbershop</span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#stimmen">Bewertungen</a>
+      </nav>
+      <a class="btn btn--primary btn--nav" href="#kontakt">Termin anfragen</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <!-- Platzhalter-Video (Pexels). Später ersetzen durch eigenen Shop-Dreh oder Higgsfield-Generierung. -->
+        <video
+          autoplay muted loop playsinline
+          poster="https://images.pexels.com/photos/897263/pexels-photo-897263.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          src="https://videos.pexels.com/video-files/7686555/7686555-hd_1920_1080_24fps.mp4"></video>
+        <div class="hero__scrim"></div>
+      </div>
+      <div class="hero__content container">
+        <h1 class="hero__title">
+          <span class="line-mask"><span class="line">Frisch geschnitten.</span></span>
+          <span class="line-mask"><span class="line">Mitten in Miesbach.</span></span>
+        </h1>
+        <p class="hero__sub">Haarschnitt, Bart und Rasur in entspannter Atmosphäre. Ohne Schnickschnack, dafür mit Handwerk.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="#kontakt">Termin anfragen</a>
+          <a class="btn btn--ghost" href="#leistungen">Leistungen ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRUST ================= -->
+    <section class="trust" aria-label="Bewertungen und Social Media">
+      <div class="container trust__inner">
+        <div class="trust__item trust__rating">
+          <span class="trust__score">5,0</span>
+          <span class="trust__stars" aria-label="5 von 5 Sternen">★★★★★</span>
+        </div>
+        <p class="trust__item">33 Google-Bewertungen, alle mit voller Punktzahl.</p>
+        <a class="trust__item trust__insta" href="https://www.instagram.com/miesbacher.barbershop/" target="_blank" rel="noopener">
+          @miesbacher.barbershop
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= LEISTUNGEN ================= -->
+    <section class="services" id="leistungen">
+      <div class="container">
+        <h2 class="section-title reveal">Leistungen.</h2>
+        <p class="section-intro reveal">Jeder Schnitt beginnt mit einem kurzen Gespräch. Danach arbeiten wir, bis es passt.</p>
+
+        <ul class="services__list">
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">01</span>
+            <div class="service__body">
+              <h3 class="service__title">Haarschnitt</h3>
+              <p class="service__desc">Schnitt, Waschen und Styling, abgestimmt auf Kopfform und Alltag.</p>
+            </div>
+            <img class="service__img" loading="lazy" width="360" height="450"
+              src="https://images.pexels.com/photos/897263/pexels-photo-897263.jpeg?auto=compress&cs=tinysrgb&w=720"
+              alt="Barbier schneidet einem Kunden die Haare" />
+            <span class="service__price">ab 28&nbsp;€<sup>*</sup></span>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">02</span>
+            <div class="service__body">
+              <h3 class="service__title">Bart &amp; Rasur</h3>
+              <p class="service__desc">Konturen, Trimmen oder klassische Nassrasur mit warmem Handtuch.</p>
+            </div>
+            <img class="service__img" loading="lazy" width="360" height="450"
+              src="https://images.pexels.com/photos/2014809/pexels-photo-2014809.jpeg?auto=compress&cs=tinysrgb&w=720"
+              alt="Präzise Bartrasur mit dem Messer" />
+            <span class="service__price">ab 22&nbsp;€<sup>*</sup></span>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">03</span>
+            <div class="service__body">
+              <h3 class="service__title">Cut &amp; Bart Kombi</h3>
+              <p class="service__desc">Das komplette Programm in einer Session, vom Schnitt bis zur Kontur.</p>
+            </div>
+            <img class="service__img" loading="lazy" width="360" height="450"
+              src="https://images.pexels.com/photos/6487888/pexels-photo-6487888.jpeg?auto=compress&cs=tinysrgb&w=720"
+              alt="Nahaufnahme: Haarschnitt mit Kamm und Schere" />
+            <span class="service__price">ab 45&nbsp;€<sup>*</sup></span>
+          </li>
+          <li class="service reveal">
+            <span class="service__num" aria-hidden="true">04</span>
+            <div class="service__body">
+              <h3 class="service__title">Kids bis 12</h3>
+              <p class="service__desc">Der erste Barbershop-Besuch, ganz entspannt und ohne Stress.</p>
+            </div>
+            <img class="service__img" loading="lazy" width="360" height="450"
+              src="https://images.pexels.com/photos/33461079/pexels-photo-33461079.jpeg?auto=compress&cs=tinysrgb&w=720"
+              alt="Haarschnitt mit der Maschine im Barbershop" />
+            <span class="service__price">ab 18&nbsp;€<sup>*</sup></span>
+          </li>
+        </ul>
+        <p class="services__note reveal"><sup>*</sup> Beispielpreise für die Vorschau. Die finalen Preise legt der Shop fest.</p>
+      </div>
+    </section>
+
+    <!-- ================= CINEMA (Scroll-Video) ================= -->
+    <section class="cinema" id="handwerk">
+      <div class="cinema__pin">
+        <h2 class="cinema__title">Handwerk, das man sieht.</h2>
+        <div class="cinema__media">
+          <!-- Platzhalter-Video (Pexels), später eigener Dreh im Shop. -->
+          <video muted loop playsinline preload="metadata"
+            poster="https://images.pexels.com/photos/2014809/pexels-photo-2014809.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://videos.pexels.com/video-files/7697533/7697533-hd_1920_1080_30fps.mp4"></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABLAUF ================= -->
+    <section class="steps" id="ablauf">
+      <div class="container">
+        <h2 class="section-title reveal">So läuft's ab.</h2>
+        <div class="steps__grid">
+          <article class="step reveal">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3 class="step__title">Melde dich</h3>
+            <p class="step__desc">Ruf an oder schreib uns auf Instagram. Oder komm einfach spontan vorbei.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3 class="step__title">Beratung</h3>
+            <p class="step__desc">Wir schauen uns Kopfform, Haar und Bart an. Dann reden wir Klartext.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3 class="step__title">Frisch raus</h3>
+            <p class="step__desc">Sauberer Schnitt, klare Konturen. Bis zum nächsten Mal.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERIE ================= -->
+    <section class="gallery" id="galerie">
+      <div class="container gallery__head">
+        <h2 class="section-title reveal">Ein Blick in den Shop.</h2>
+        <a class="gallery__link reveal" href="https://www.instagram.com/miesbacher.barbershop/" target="_blank" rel="noopener">Mehr auf Instagram</a>
+      </div>
+      <!-- Platzhalter-Fotos (Pexels). Später: echte Shop-Fotos von Instagram/Google Maps, mit Freigabe des Inhabers. -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__set">
+            <img loading="lazy" src="https://images.pexels.com/photos/785537/pexels-photo-785537.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/16997937/pexels-photo-16997937.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/33418521/pexels-photo-33418521.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/7697231/pexels-photo-7697231.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/36361320/pexels-photo-36361320.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/35157699/pexels-photo-35157699.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+          </div>
+          <div class="marquee__set">
+            <img loading="lazy" src="https://images.pexels.com/photos/785537/pexels-photo-785537.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/16997937/pexels-photo-16997937.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/33418521/pexels-photo-33418521.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/7697231/pexels-photo-7697231.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/36361320/pexels-photo-36361320.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+            <img loading="lazy" src="https://images.pexels.com/photos/35157699/pexels-photo-35157699.jpeg?auto=compress&cs=tinysrgb&w=900" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BEWERTUNGEN ================= -->
+    <section class="voices" id="stimmen">
+      <div class="container">
+        <h2 class="section-title reveal">Das sagen die Leute.</h2>
+        <p class="section-intro reveal">5,0 von 5 Sternen auf Google, bei 33 Bewertungen.</p>
+        <!-- Platzhalter-Zitate: vor dem Livegang durch echte Google-Rezensionen ersetzen. -->
+        <div class="voices__grid">
+          <blockquote class="voice reveal">
+            <p>„Bester Barber im Landkreis. Man merkt sofort, dass hier jemand sein Handwerk liebt."</p>
+            <footer><cite>Korbinian H.</cite>, Google-Rezension</footer>
+          </blockquote>
+          <blockquote class="voice voice--offset reveal">
+            <p>„Kurz gewartet, top beraten. Der Bart saß danach besser als je zuvor."</p>
+            <footer><cite>Lukas W.</cite>, Google-Rezension</footer>
+          </blockquote>
+          <blockquote class="voice voice--offset-2 reveal">
+            <p>„Endlich ein Barbershop in Miesbach, der zuhört. Fairer Preis, sauberes Ergebnis."</p>
+            <footer><cite>Stefan M.</cite>, Google-Rezension</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= KONTAKT ================= -->
+    <section class="contact" id="kontakt">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <h2 class="section-title reveal">Komm vorbei.</h2>
+          <address class="contact__address reveal">
+            Miesbacher Barbershop<br />
+            Frühlingstraße 28<br />
+            83714 Miesbach
+          </address>
+          <dl class="contact__hours reveal">
+            <!-- Öffnungszeiten sind Platzhalter, mit dem Shop abstimmen. -->
+            <div><dt>Mo bis Fr</dt><dd>09:00 bis 19:00</dd></div>
+            <div><dt>Samstag</dt><dd>09:00 bis 15:00</dd></div>
+            <div><dt>Sonntag</dt><dd>geschlossen</dd></div>
+          </dl>
+          <div class="contact__ctas reveal">
+            <!-- Telefonnummer ist Platzhalter, vor Livegang verifizieren. -->
+            <a class="btn btn--primary" href="tel:+498025000000">Termin anfragen</a>
+            <a class="btn btn--ghost" href="https://www.instagram.com/miesbacher.barbershop/" target="_blank" rel="noopener">Instagram öffnen</a>
+          </div>
+        </div>
+        <div class="contact__map reveal">
+          <iframe
+            title="Karte: Miesbacher Barbershop, Frühlingstraße 28, Miesbach"
+            src="https://maps.google.com/maps?q=Fr%C3%BChlingstra%C3%9Fe%2028%2C%2083714%20Miesbach&z=15&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="wordmark" href="#top">
+        <span class="wordmark__pole" aria-hidden="true"></span>
+        <span class="wordmark__text">Miesbacher<br />Barbershop</span>
+      </a>
+      <nav class="site-footer__nav" aria-label="Fußzeile">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <p class="site-footer__note">
+        Probewebsite, unverbindlicher Design-Entwurf von DT&nbsp;Webstudio.
+        Kein offizieller Auftritt des Miesbacher Barbershop.
+        Fotos und Videos: Pexels (Platzhalter), Preise und Zeiten beispielhaft.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
